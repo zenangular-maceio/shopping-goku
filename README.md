@@ -44,6 +44,10 @@ Shopping APP
 --- |
 [Ivan Santos](https://github.com/pragmaticivan) |
 
+[![Gustavo Costa](https://avatars3.githubusercontent.com/u/874909?v=2&s=80)](https://github.com/gustavocostaw) | 
+--- |
+[Gustavo Costa](https://github.com/gustavocostaw) |
+
 ## License
 
 MIT
