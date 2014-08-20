@@ -40,13 +40,10 @@ Shopping APP
 
 ## Team
 
-[![Ivan Santos](http://2.gravatar.com/avatar/2b216fed040260b2370a995c92864615)](https://github.com/pragmaticivan) | 
---- |
-[Ivan Santos](https://github.com/pragmaticivan) |
 
-[![Gustavo Costa](https://avatars3.githubusercontent.com/u/874909?v=2&s=80)](https://github.com/gustavocostaw) | 
---- |
-[Gustavo Costa](https://github.com/gustavocostaw) |
+[![Ivan Santos](http://2.gravatar.com/avatar/2b216fed040260b2370a995c92864615)](https://github.com/pragmaticivan) | [![Gustavo Costa](https://avatars3.githubusercontent.com/u/874909?v=2&s=80)](https://github.com/gustavocostaw)
+--- | --- 
+[Ivan Santos](https://github.com/pragmaticivan) | [Gustavo Costa](https://github.com/gustavocostaw) |
 
 ## License
 
