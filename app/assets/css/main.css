@@ -1,0 +1,24 @@
+/*Page Animation*/
+.page.ng-enter, .page.ng-leave {
+  -webkit-transition:0.2s linear all;
+  transition:0.2s linear all;
+}
+.page.ng-enter {
+  -webkit-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+  opacity: 0;
+}
+.page.ng-enter.ng-enter-active { opacity: 1; }
+.page.ng-leave {opacity: 1; }
+.page.ng-leave.ng-leave-active {opacity: 0; }
+
+
+
+.footer {
+  background: #ccc;
+  margin-top: 30px;
+  border-top: #999 1px solid;
+  border-bottom: #999 1px solid;
+  padding: 10px 0;
+  font-weight: bold;
+}

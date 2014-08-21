@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Shopping Goku</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body ng-app="shoppingGoku" >
     <!-- HEADER AND NAVBAR -->
@@ -28,22 +29,31 @@
     </header>
 
     <!-- MAIN CONTENT AND INJECTED VIEWS -->
-    <div id="main">
+    <div class="general-content container">
 
       <!-- angular templating -->
       <!-- this is where content will be injected -->
-      <div ng-view></div>
+      <div ng-view class="page {{pageClass}}"></div>
 
     </div>
 
     <!-- FOOTER -->
-    <footer class="text-center">
+    <footer class="footer text-center">
       Zen Angular
     </footer>
 
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+
     <script src="app.js"></script>
+    <script src="pages/errorController.js"></script>
+    <script src="pages/mainController.js"></script>
+    <script src="pages/contactController.js"></script>
+    <script src="pages/showProductController.js"></script>
+
+
+
     <script src="greet/greetModule.js"></script>
     <script src="greet/greetDirective.js"></script>
 </body>

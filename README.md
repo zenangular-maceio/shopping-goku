@@ -12,7 +12,7 @@
 ## Featues
 Shopping APP
 
-- [ ] Routes (5)
+- [x] Routes (5)
 
 
 - Listagem de produtos (5) { id, name, price, description, photos, type }
@@ -39,7 +39,6 @@ Shopping APP
 
 
 ## Team
-
 
 [![Ivan Santos](http://2.gravatar.com/avatar/2b216fed040260b2370a995c92864615)](https://github.com/pragmaticivan) | [![Gustavo Costa](https://avatars3.githubusercontent.com/u/874909?v=2&s=80)](https://github.com/gustavocostaw)
 --- | --- 
