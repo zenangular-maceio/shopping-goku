@@ -1,6 +1,6 @@
 'use strict';
 
-  angular.module('shoppingGoku')
+  angular.module('gk.error')
     .controller('ErrorController', function($scope){
       $scope.pageClass = 'page-error';
     });

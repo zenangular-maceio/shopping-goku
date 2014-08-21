@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('shoppingGoku', ['ngRoute', 'ngAnimate']);
+angular.module('shoppingGoku', ['ngRoute', 'ngAnimate','gk.error','gk.contact', 'gk.product', 'gk.main']);
 
   // configure our routes
   angular.module('shoppingGoku')
@@ -10,24 +10,24 @@ angular.module('shoppingGoku', ['ngRoute', 'ngAnimate']);
 
       // route for the home page
       .when('/', {
-        templateUrl : 'pages/page-main.html',
+        templateUrl : 'main/page-main.html',
         controller: 'MainController'
       })
 
       // route for the product show
       .when('/product/:id', {
-        templateUrl : 'pages/page-product.html',
-        controller: 'ShowProductController'
+        templateUrl : 'product/page-product.html',
+        controller: 'ProductController'
       })
 
       // route for the home page
       .when('/contact', {
-        templateUrl : 'pages/page-contact.html',
+        templateUrl : 'contact/page-contact.html',
         controller: 'ContactController'
       })
 
       .when('/404', {
-        templateUrl : 'pages/404.html',
+        templateUrl : 'error/404.html',
         controller: 'ErrorController'
       })
 
