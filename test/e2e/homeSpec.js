@@ -2,9 +2,9 @@ describe('angularjs homepage', function() {
   it('should greet the named user', function() {
     browser.get('/');
 
-    var greeting = element(by.id('greeting'));
+    var home = element(by.id('title'));
 
-    expect(greeting.getText()).toEqual('Hello, Ciro!');
+    expect(home.getText()).toEqual('Home');
   });
 });
 
