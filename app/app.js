@@ -11,19 +11,22 @@ angular.module('shoppingGoku', ['ngRoute', 'ngAnimate','gk.error','gk.contact', 
       // route for the home page
       .when('/', {
         templateUrl : 'main/page-main.html',
-        controller: 'MainController'
+        controller: 'MainController',
+        controllerAs: 'mainCtrl'
       })
 
       // route for the product show
       .when('/product/:id', {
         templateUrl : 'product/page-product.html',
-        controller: 'ProductController'
+        controller: 'ProductController',
+        controllerAs: 'productCtrl'
       })
 
       // route for the home page
       .when('/contact', {
         templateUrl : 'contact/page-contact.html',
-        controller: 'ContactController'
+        controller: 'ContactController',
+        controllerAs: 'contactCtrl'
       })
 
       .when('/404', {

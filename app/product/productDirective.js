@@ -2,10 +2,13 @@
 
 angular.module('gk.product')
   .directive('gkProduct', function() {
+
     return {
-      template: '<p>Hello World!</p>',
-      link: function($scope, $element, $attrs) {
-        // linkFn
+      templateUrl: 'product/gk-product.html',
+      restrict: 'AE',
+      transclude: true ,
+      scope: {
+        price: "="
       }
     };
   });

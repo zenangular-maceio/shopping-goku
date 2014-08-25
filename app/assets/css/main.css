@@ -22,3 +22,43 @@
   padding: 10px 0;
   font-weight: bold;
 }
+
+
+
+/*Product List*/
+.product-list ul {
+  list-style: none;
+}
+.product-list .product-item {
+  width: 200px;
+  float: left;
+  border: solid 1px #999;
+  background: #ccc;
+  margin: 0 10px;
+  border-radius: 4px;
+}
+.product-list .product-item h3{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.product-item .price{
+  padding: 0 10px;
+  font-weight: bold;
+}
+.content-featured-image {
+  height: 100px;
+  background: yellow;
+}
+.product-item .control {
+  padding: 2px 10px;
+  text-align: right;
+}
+.product-item .control button {
+  color: #000;
+  background: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+

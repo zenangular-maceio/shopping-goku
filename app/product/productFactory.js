@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('gk.product')
-  .factory('ProductService', function() {
+  .factory('ProductFactory', function() {
 
     // product source
     var products = [{

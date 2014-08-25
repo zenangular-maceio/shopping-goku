@@ -26,6 +26,11 @@ gulp.task('html', function() {
     .pipe(connect.reload());
 });
 
+gulp.task('css', function() {
+  gulp.src('./app/**/*.css')
+    .pipe(connect.reload());
+});
+
 gulp.task('js', ['jshint'], function() {
   gulp.src('./app/**/*.js')
     .pipe(connect.reload());
@@ -40,6 +45,7 @@ gulp.task('jshint', function() {
 gulp.task('watch', function() {
   gulp.watch(['.app/index.html', './app/**/*.html'], ['html']);
   gulp.watch(['.app/app.js', './app/**/*.js'], ['js']);
+  gulp.watch(['.app/assets/css/main.css', './app/**/*.css'], ['css']);
 });
 
 gulp.task('serve', ['watch'], function() {
